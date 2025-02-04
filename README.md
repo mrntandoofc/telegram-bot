@@ -3,8 +3,8 @@
 
    #### Note:
 
-- **Here is a [DEMO VERSION](https://t.me/giftedmd_bot) of this bot project.**
-- **You can test it out for 🆓**
+- **Here is a [DEMO VERSION](https://t.me/giftedmd_bot) of this bot project. You can test it out for 🆓**
+- **Downloaders and Ai Won't Work Until You Insert apiKeys in th set.js file. [THE DEMO VERSION](https://t.me/giftedmd_bot) has it's Downloaders and Ai Working.**
 
 - Gifted-Md Telegram bot project is designed to automate tasks, respond to commands, and integrate with external services or APIs, offering users a robust interactive experience.
 
