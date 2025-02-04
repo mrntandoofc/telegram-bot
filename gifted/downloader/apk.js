@@ -3,14 +3,9 @@ module.exports = {
     desc: 'Download Android Apps',
     category: ['downloader'],
     async run(m, { Gifted, text, GiftedApkDl }) {
-        const giftedMess = {
-            wait: 'Please wait...',
-            done: 'Download complete!',
-            error: 'An error occurred.'
-        };
 
         if (!text) return Gifted.reply({ text: `Provide an App Name ie ${global.prefix}apk Telegram` }, m);
-        Gifted.reply({ text: giftedMess.wait }, m);
+        Gifted.reply({ text: giftechMess.wait }, m);
 
         try {
             const giftedAppData = await GiftedApkDl(text);
@@ -29,11 +24,11 @@ module.exports = {
                 document: `${giftedAppData.link}`,
                 fileName: `${giftedAppData.appname}`,
                 mimetype: "application/vnd.android.package-archive",
-                caption: giftedMess.done
+                caption: giftechMess.done
             }, giftedButtons, m);
         } catch (e) {
-            console.error('Error:', e); // Log the error for debugging
-            Gifted.reply({ text: giftedMess.error }, m);
+            console.error('Error:', e); 
+            Gifted.reply({ text: giftechMess.error }, m);
         }
     }
 };
