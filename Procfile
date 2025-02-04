@@ -1,4 +1,4 @@
-web: node gifted.js
+web: npm start
 
 
 
