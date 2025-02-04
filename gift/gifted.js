@@ -122,13 +122,13 @@ module.exports = async (Gifted) => {
                     if (plugin.command.includes(command)) {
                         await Gifted.sendChatAction(chatId, 'typing');
                         if (plugin?.settings?.owner && !m.isOwner) {
-                            return Gifted.reply(mess.owner, m);
+                            return Gifted.reply(giftechMess.owner, m);
                         }
                         if (plugin?.settings?.group && !m.isGroup) {
-                            return Gifted.reply(mess.group, m);
+                            return Gifted.reply(giftechMess.group, m);
                         }
                         if (plugin?.settings?.private && !m.isPrivate) {
-                            return Gifted.reply(mess.private, m);
+                            return Gifted.reply(giftechMess.private, m);
                         }
                         if (typeof plugin === "function") {
                             await plugin(m, GiftedTech);
