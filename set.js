@@ -13,7 +13,6 @@ global.giftedKey = ''; // Gifted Api Key
 global.maherApi = 'https://api.nexoracle.com'; // NexOracle Api
 global.maherKey = ''; // NexOracle Api Key
 global.lyffeApi = 'https://levanter.onrender.com'; // Lyffe Api
-global.port = '7000';
 
 global.giftechMess = {
     internalerr: 'Internal Server Error!',
