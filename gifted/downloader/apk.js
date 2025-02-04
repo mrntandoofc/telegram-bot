@@ -4,7 +4,7 @@ module.exports = {
     category: ['downloader'],
     async run(m, { Gifted, text, GiftedApkDl }) {
 
-        if (!text) return Gifted.reply({ text: `Provide an App Name ie ${global.prefix}apk Telegram` }, m);
+        if (!text) return Gifted.reply({ text: `Provide an App Name ie ${global.prefix}apk Facebook Lite` }, m);
         Gifted.reply({ text: giftechMess.wait }, m);
 
         try {
