@@ -1,12 +1,12 @@
 global.prefix = '/'; // Set Your Preferred Prefix
-global.botName = 'GIFTED-MD'; // Bot Name
-global.botVersion = '2.0.0';
-global.botPic = 'https://files.giftedtech.web.id/file/gifted-md.jpg'; // Can use path, can also use link
+global.botName = 'Jesus-to-Nations '; // Bot Name
+global.botVersion = '7.5.2';
+global.botPic = 'https://envs.sh/X9U.jpg'; // Can use path, can also use link
 global.botToken = '7862434671:AAFEnK32bXZzT-C-mw0pummOOr9su2XhBQk'; // Replace With Your Bot Token (Get it from BotFather)
-global.ownerUsername = 'mouricedevs'; // Replace With Your Telegram Username(For Bot Owner)
+global.ownerUsername = 'Pastor Bondservant Of Christ Ntando'; // Replace With Your Telegram Username(For Bot Owner)
 global.timeZone = 'Africa/Nairobi'; // Your Time Zone
 global.ownerId = [7913581220]; // Replace With Your Owner ID(For Bot Owner), You Can Add More than 1
-global.footer = '*Powered by GiftedTech*';
+global.footer = '*Powered by Jesus*';
 global.ytdlWeb = 'https://ytdl.giftedtech.web.id';
 global.giftedApi = 'https://api.giftedtech.web.id/api'; // Gifted Api
 global.giftedKey = ''; // Gifted Api Key
